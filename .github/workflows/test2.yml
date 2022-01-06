@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Display an environment varariable
-        run: echo Repository: ${{ env.GITHUB_REPOSITORY }}
+        run: echo Repository: $GITHUB_REPOSITORY
