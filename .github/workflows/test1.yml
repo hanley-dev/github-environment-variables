@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print environment varariables
-        run: env | grep GITHUB
+        run: env | grep GITHUB | sort
