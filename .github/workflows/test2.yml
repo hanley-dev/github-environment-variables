@@ -9,3 +9,5 @@ jobs:
         run: echo $GITHUB_REPOSITORY
       - name: Display Method 2
         run: echo ${{ env.GITHUB_REPOSITORY }}
+      - name: Display Method 3
+        run: echo ${{ github.env.GITHUB_REPOSITORY }}
